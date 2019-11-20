@@ -2,6 +2,7 @@ package choktter.unit2;
 /**
  * DigitsSum.java
  * October 29, 2019
+ * this application prompts the user for a non-negative integer and then displays the sum of the digits.
  * @author Tenzin Choktter
  * <br>
  */

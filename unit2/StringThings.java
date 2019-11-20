@@ -2,6 +2,7 @@ package choktter.unit2;
 /**
  * StringThings.java
  * October 08, 2019
+ * Prompt the user to enter a word that is at least 7 characters and then performs the required tasks
  * @author Tenzin Choktter
  * <br>
  */

@@ -2,6 +2,7 @@ package choktter.unit2;
 /**
  * StringThings.java
  * October 08, 2019
+ * This application displays math problems by randomly generating two numbers, 1 through 10, and randomly generating an operator (+, -, *, /), and then prompts the user for an answer. 
  * @author Tenzin Choktter
  * <br>
  */

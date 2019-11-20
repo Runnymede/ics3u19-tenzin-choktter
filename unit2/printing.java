@@ -6,8 +6,6 @@ package choktter.unit2;
  * October 3, 2019
  * <br>
  */
-
-
 import java.util.Scanner; 
 
 public class printing {

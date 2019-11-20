@@ -2,6 +2,7 @@ package choktter.unit2;
 /**
  * CubesSum.java
  * November 01, 2019
+ * This application prompts the user for a non-negative integer and then displays the sum of the cubes of the digits.
  * @author Tenzin Choktter
  * <br>
  */

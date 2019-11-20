@@ -2,6 +2,7 @@ package choktter.unit2;
 /**
  * DigitsDisplay.java
  * October 29, 2019
+ * This is an application that prompts the user for a non-negative integer and then displays each digit on a separate line.
  * @author Tenzin Choktter
  * <br>
  */

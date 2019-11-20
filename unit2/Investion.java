@@ -2,6 +2,7 @@ package choktter.unit2;
 /**
  * Investions.java
  * October 29, 2019
+ * This is an Investment application that calculates how many years it will take for a $2,500 investment to be worth at least $5,000 if compounded annually at 7.5%.
  * @author Tenzin Choktter
  * <br>
  */

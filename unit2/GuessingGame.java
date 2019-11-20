@@ -2,6 +2,7 @@ package choktter.unit2;
 /**
  * GuessingGame.java
  * October 22, 2019
+ * This is a guessing game where the user wins if they print the same number as the computers 
  * @author Tenzin Choktter
  * <br>
  */

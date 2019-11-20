@@ -2,6 +2,7 @@ package choktter.unit2;
 /**
  * DigitsSum.java
  * October 29, 2019
+ * This tells the user if the number they entered is prime or not
  * @author Tenzin Choktter
  * <br>
  */
@@ -39,7 +40,7 @@ public class PrimeNumber {
 		//if statement
 		if (answer != 0) {
 			System.out.println ("Prime");
-		}
+		}	
 		sc.close();
 	}
 }

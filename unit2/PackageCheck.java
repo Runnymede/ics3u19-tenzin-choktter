@@ -2,6 +2,7 @@ package choktter.unit2;
 /**
  * PackageCheck.java
  * October 15, 2019
+ * This application prompts the user for the weight of a package and its dimensions which are length, width, and height and then displays an appropriate message if the package does not meet the requirements
  * @author Tenzin Choktter
  * <br>
  */

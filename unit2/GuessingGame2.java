@@ -2,6 +2,7 @@ package choktter.unit2;
 /**
  * GuessingGame.java
  * October 28, 2019
+ *  This is the modified version of GuessingGame where it to allows the user to guess as many times as is necessary to guess the secret number. 
  * @author Tenzin Choktter
  * <br>
  */
