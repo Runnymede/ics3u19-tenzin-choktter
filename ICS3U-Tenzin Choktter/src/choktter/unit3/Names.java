@@ -12,7 +12,7 @@ public class Names {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 	
-		Scanner scan = new Scanner(0);																										
+		Scanner scan = new Scanner(System.in);																										
 		int[] x = new int[10];
 		
 		System.out.println("Enter 10 names");
