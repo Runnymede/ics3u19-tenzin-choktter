@@ -9,16 +9,27 @@ package choktter.unit3;
 import java.util.Scanner; 
 public class Names {
 
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-	
-		Scanner scan = new Scanner(System.in);																										
-		int[] x = new int[10];
-		
-		System.out.println("Enter 10 names");
-	
-		int name = scan.nextInt();
-		
-	}
 
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+
+		System.out.println("How many names do you want?");
+		int numberName = scan.nextInt();
+
+		String[] names = new String[numberName];
+
+		System.out.println("Enter the names ones by one");
+
+		for (int i = 0; i < numberName; i++) {
+			names[i] = scan.next();	 
+		}
+		for (int i = 0; i < numberName; i++) {
+			System.out.println(names[i]);	 
+		}
+		for (int i = numberName-1; i >= 0; i--) {
+			System.out.println(names[i]);	
+		}
+		scan.close();
+	}
 }
