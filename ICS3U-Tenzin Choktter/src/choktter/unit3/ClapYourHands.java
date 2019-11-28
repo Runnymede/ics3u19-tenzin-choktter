@@ -12,15 +12,10 @@ public class ClapYourHands {
 	
 		char [][] tttBoard = new char [3][3];
 		
-	
-		for (int row = 0; row < tttBoard.length; row++) {
-			for (int col = 0; col < tttBoard[0].length; col++) {
-				System.out.println(tttBoard[row][col]);
-			}
-			System.out.println();
+
 		}
 		
 
 	}
 
-}
+
