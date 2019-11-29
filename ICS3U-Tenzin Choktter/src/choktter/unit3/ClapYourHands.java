@@ -9,13 +9,19 @@ package choktter.unit3;
 public class ClapYourHands {
 
 	public static void main(String[] args) {
-	
-		char [][] tttBoard = new char [3][3];
-		
 
-		}
-		
+		String [] verses = {"Clap twice", "Fly away", "Run three times", "Say hi four times","Take a nap", "Go out six times", "Play soccer seven times", "Spin eight times", "Eat dinner", "Go to sleep"};
+
+		int counter = 0;
+		do {
+			System.out.println("If you're happy and you know it" + verses [counter]);
+
+			counter ++;
+		}while (counter < 10);
+
 
 	}
+
+}
 
 
