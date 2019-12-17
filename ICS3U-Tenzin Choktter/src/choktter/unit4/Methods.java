@@ -1,5 +1,11 @@
 package choktter.unit4;
-
+/**
+ * Methods.java
+ * December 17, 2019
+ * This program prints out my signature and my image 
+ * @author Tenzin Choktter
+ * <br>
+ */
 public class Methods {
 
 	public static void printSignature() {
