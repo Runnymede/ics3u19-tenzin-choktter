@@ -32,10 +32,10 @@ public class IsoTriangle {
 		do {
 			System.out.println(stars);
 			
-		
-			counter ++;
-			
+
 			System.out.println(stars + stars);
+			
+			counter ++;
 			
 		}while (counter < size);
 
