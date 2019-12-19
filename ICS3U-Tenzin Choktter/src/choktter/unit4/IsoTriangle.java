@@ -1,4 +1,4 @@
-package choktter.unit4;
+                                                       package choktter.unit4;
 
 import java.util.Scanner;
 
@@ -18,9 +18,15 @@ public class IsoTriangle {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter the size");
-		int getSize = sc. nextInt();
+		int getSize = sc.nextInt();
+		
+		
+		
+		
+		
 		
 		drawStars(getSize);
+		drawSpace(getSize);
 	}
 
 	public static void drawStars(int size) {
@@ -30,16 +36,26 @@ public class IsoTriangle {
 		int counter = 0;
 		
 		do {
-			System.out.println(stars);
-			
 
-			System.out.println(stars + stars);
+			System.out.print ("*");
+			
 			
 			counter ++;
 			
 		}while (counter < size);
-
-		
+     
+	}
+	public static void drawSpace(int size) {
+			
+			
+			int counter = 0;
+			
+			do {
+				System.out.print(" ");
+				
+				counter ++;
+				
+			}while (counter < size);                                                           
 		
 	}
 }
