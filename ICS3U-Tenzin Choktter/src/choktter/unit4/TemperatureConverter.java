@@ -1,5 +1,11 @@
 package choktter.unit4;
-
+/**
+ * Methods.java
+ * December 17, 2019
+ * This program converts temperature
+ * @author Tenzin Choktter
+ * <br>
+ */
 import java.util.Scanner;
 
 public class TemperatureConverter {
