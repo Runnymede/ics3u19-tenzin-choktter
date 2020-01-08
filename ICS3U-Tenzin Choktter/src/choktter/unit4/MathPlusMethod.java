@@ -21,6 +21,7 @@ public class MathPlusMethod {
 		System.out.println(min(a));
 		System.out.println(max(a));	
 		System.out.println(sum(a));
+		System.out.println(avrg(a));
 	}
 	//min
 	public static int min (int num []) {
@@ -54,12 +55,68 @@ public class MathPlusMethod {
 
 		for(int i = 1; i < num.length; i++) {
 			sum = num[0] + num[1] + num[2] + num[3] + num[4];	
-			}
+		}
 		return sum;
 	}
 
 	//average 
-	
+	public static double avrg (int num []) {
+		double sum = num[0];
+		double avrg; 
+
+		for(int i = 1; i < num.length; i++) {
+			sum = num[0] + num[1] + num[2] + num[3] + num[4];		
+		}
+		avrg = sum/5;
+		return avrg;
+	}
+	//min 
+		public static int min (double num []) {
+			double min = num[0];
+			int index = 0;
+
+			for(int i = 1; i < num.length; i++) {
+				if (num[i] < min) {
+					min = num [1];
+					index = i; 
+				}	
+			}
+			return index; 
+		}
+		//max
+		public static int max (double num []) {
+			double max = num[0];
+			int index = 0;
+
+			for(int i = 1; i < num.length; i++) {
+				if (num[i] > max) {
+					max = num [1];
+					index = i; 
+				}	
+			}
+			return index; 
+		}
+		//sum
+		public static double  sum (double num []) {
+			double sum = num[0];
+
+			for(int i = 1; i < num.length; i++) {
+				sum = num[0] + num[1] + num[2] + num[3] + num[4];	
+			}
+			return sum;
+		}
+
+		//average 
+		public static double avrg (double num []) {
+			double sum = num[0];
+			double avrg; 
+
+			for(int i = 1; i < num.length; i++) {
+				sum = num[0] + num[1] + num[2] + num[3] + num[4];		
+			}
+			avrg = sum/5;
+			return avrg;
+		}
 }
 
 
