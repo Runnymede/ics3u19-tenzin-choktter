@@ -1,5 +1,8 @@
 package choktter.unit4;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 /**
  * Methods.java
  * December 17, 2019
@@ -10,14 +13,14 @@ package choktter.unit4;
 
 public class MathPlusMethod {
 
-	
+
 	public static void main(String[] args) {
 
 		int a[] = new int [5];
 
-		a[0] = 6;
+		a[0] = 107;
 		a[1] = 7;
-		a[2] = 3;
+		a[2] = 7;
 		a[3] = 21;
 		a[4] = 67;
 
@@ -29,6 +32,7 @@ public class MathPlusMethod {
 		System.out.println(max(a));	
 		System.out.println(sum(a));
 		System.out.println(avrg(a));
+		System.out.println(median(a));
 	}
 	//min
 	/**
@@ -133,23 +137,22 @@ public class MathPlusMethod {
 
 	//median 
 
-	public static double median (double num []) {
-		double sum = num[0];
-		double median = 0; 
-
+	public static double median (double [] num ) {
+		Arrays.sort(num);
+		int odd;
 		
-			for(int i = 1; i < num.length; i++) {
-				if (num[i] < median) {
-					median = num [1];
-					sum = i; 	
+		if(num.length%2 != 0)
+		{
+			
 		}
-		median = sum/5;
-	}
-			return median;
-
+		
+		return median;
 
 	}
+
 }
+
+
 
 
 
