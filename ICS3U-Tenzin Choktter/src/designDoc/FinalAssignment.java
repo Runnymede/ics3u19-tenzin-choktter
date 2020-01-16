@@ -1,4 +1,7 @@
 package designDoc;
+
+import java.util.Scanner;
+
 /**
  * Methods.java
  * January 14, 2019
@@ -9,11 +12,14 @@ package designDoc;
 public class FinalAssignment {
 
 	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		
 		String knowledgeQuestion [] = new String [10];
-
+		
 
 		knowledgeQuestion [0] = "What does this road sign mean? 1, 2, 3, or 4?\r\n" 
-				+ ">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n" + 
+				+ "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n" + 
 				"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%%&%%%&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n" + 
 				"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%%&@@@@@%%%&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n" + 
 				"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%&%@%&%%%@@%%%&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n" + 
@@ -61,7 +67,7 @@ public class FinalAssignment {
 				"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@%%%%%%%%%@@%%%&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n" + 
 				"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%%%@%%%%%@@%%%&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n" + 
 				"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%@@@@@%%%&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n" + 
-				"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%%%%%%&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"; 
+				"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%%%%%%&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\r\n" + "1. Merging traffic ahead\r\n" + "2. No left turns\r\n" + "3. Road branching off ahead\r\n" + "4. Hidden intersection" ; 
 		knowledgeQuestion [1] = "What does this road sign mean? 1, 2, 3, or 4?"; 
 		knowledgeQuestion [2] = "What does this road sign mean? 1, 2, 3, or 4?"; 
 		knowledgeQuestion [3] = "What does this road sign mean? 1, 2, 3, or 4?"; 
@@ -72,19 +78,33 @@ public class FinalAssignment {
 		knowledgeQuestion [8] = "What does this road sign mean? 1, 2, 3, or 4?"; 
 		knowledgeQuestion [9] = "What does this road sign mean? 1, 2, 3, or 4?"; 
 
-
-		String knowledgeAnswer [] = {"Merging traffic ahead", "No left turns", "Road branching off ahead", "Hidden intersection"};
-
+		
+ 
 
 
 		System.out.println(kQuestion(knowledgeQuestion));
+		
 	}
+	
 	public static String kQuestion (String q1 [] ) {
+		Scanner sc = new Scanner(System.in);
 		String kQuestion = q1[0];
-		int index = 0;
+		int counter = 0;
 
-		for (int i = 1; i < q1.length; i++) {
+		for (int i = 0; i < q1.length; i++) {
+		
 			System.out.println(q1[i]);
+			int answer1 = sc.nextInt();
+			
+			if (answer1 == 3) {
+				System.out.println("Right answer");
+				counter ++;
+			}
+			else {
+				System.out.println("The Correct Answer is ROAD BRANCHING OFF AHEAD!!!\r\n" + "ROAD BRANCHING OFF AHEAD!!!\r\n" + "ROAD BRANCHING OFF AHEAD!!!\r\n");
+			}
+			
+			
 			//get answer
 
 			//check answer
